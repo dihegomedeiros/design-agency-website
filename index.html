@@ -4,29 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Agência de Design</title>
 </head>
 
 <body>
-    <nav>
-        <img src="assets/images/logo.png" alt="Logo da Agência de Design" width="100">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Nossos Serviços</a></li>
-            <li><a href="#aboutus">Sobre Nós</a></li>
-        </ul>
-        <a href="#contact" class="contact-button">Contato</a>
-        <hr />
-    </nav>
     <section id="home">
-        <h1>Conecte-se aos nossos designs criativos, que superam as suas expectativas.</h1>
-        <p>Agência digital líder, com sólida expertise em design e desenvolvimento.</p>
+        <div class="shapes">
+            <filter id="grain">
+                <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="4" stitchTiles="stitch" />
+                <feColorMatrix type="saturate" values="0" />
+                <feBlend in="SourceGraphic" mode="overlay" result="blend" />
+                <feComposite in="blend" in2="SourceGraphic" operator="in" />
+            </filter>
+            <div class="shape1"></div>
+            <div class="shape2"></div>
+            <div class="shape3"></div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <img src="assets/images/logo.png" alt="Logo da Agência de Design" width="100">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Nossos Serviços</a></li>
+                    <li><a href="#aboutus">Sobre Nós</a></li>
+                </ul>
+                <a href="#contact" class="contact-button">Contato</a>
+                <hr />
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1>Conecte-se aos nossos designs criativos, que superam as suas expectativas.</h1>
+            <p>Agência digital líder, com sólida expertise em design e desenvolvimento.</p>
+        </div>
     </section>
+
     <section id="aboutus">
         <h2>Sobre Nós</h2>
         <p>Agência digital de destaque, com sólida expertise em design e desenvolvimento. Criamos sites prontos para
             uso, aplicativos móveis e serviços de negócios online sofisticados.</p>
     </section>
+
     <section id="services">
         <h2>No Que Somos Bons</h2>
         <ol>
@@ -52,6 +71,7 @@
             </li>
         </ol>
     </section>
+
     <footer>
         <form>
             <h2>Peça uma proposta</h2>
