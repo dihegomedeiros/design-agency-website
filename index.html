@@ -11,12 +11,6 @@
 <body>
     <section id="home">
         <div class="shapes">
-            <filter id="grain">
-                <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="4" stitchTiles="stitch" />
-                <feColorMatrix type="saturate" values="0" />
-                <feBlend in="SourceGraphic" mode="overlay" result="blend" />
-                <feComposite in="blend" in2="SourceGraphic" operator="in" />
-            </filter>
             <div class="shape1"></div>
             <div class="shape2"></div>
             <div class="shape3"></div>
@@ -41,9 +35,40 @@
     </section>
 
     <section id="aboutus">
-        <h2>Sobre Nós</h2>
-        <p>Agência digital de destaque, com sólida expertise em design e desenvolvimento. Criamos sites prontos para
-            uso, aplicativos móveis e serviços de negócios online sofisticados.</p>
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Agência digital de destaque, com sólida expertise em design e desenvolvimento. Criamos sites prontos para
+                uso, aplicativos móveis e serviços de negócios online sofisticados.</p>
+            <div class="gallery-container">
+                <div class="gallery-item active"
+                    style="background-image: url(./assets/images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg)">
+                    <span>
+                        Foto de <a
+                            href="https://unsplash.com/pt-br/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke
+                            Cagle</a> na <a
+                            href="https://unsplash.com/pt-br/fotografias/tres-pessoas-sentadas-em-frente-a-mesa-rindo-juntas-g1Kr4Ozfoac?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </span>
+                </div>
+                <div class="gallery-item"
+                    style="background-image: url(./assets/images/ryan-waring-zXpeI8tf_jM-unsplash.jpg);">
+                    <span>
+                        Foto de <a
+                            href="https://unsplash.com/pt-br/@ryanwaring?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan
+                            Waring</a> na <a
+                            href="https://unsplash.com/pt-br/fotografias/um-grupo-de-pessoas-sentadas-ao-redor-de-uma-sala-de-estar-zXpeI8tf_jM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </span>
+                </div>
+                <div class="gallery-item"
+                    style="background-image: url(./assets/images/felirbe-gR87aBDf46k-unsplash.jpg);">
+                    <span>
+                        Foto de <a
+                            href="https://unsplash.com/pt-br/@felirbe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">@felirbe</a>
+                        na <a
+                            href="https://unsplash.com/pt-br/fotografias/uma-pessoa-segurando-um-livro-na-mao-gR87aBDf46k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </span>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="services">
