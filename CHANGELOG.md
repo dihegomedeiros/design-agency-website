@@ -24,6 +24,7 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 - Changelog
 - Estilização da seção 'Sobre Nós'
 - Galeria de imagens na seção 'Sobre Nós'
+- Otimização das imagens JPG
 
 ### Removed
 
