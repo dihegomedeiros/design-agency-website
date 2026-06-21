@@ -28,9 +28,9 @@ Este website será inspirado em um projeto do Vektora Studio, um estúdio criati
 ## Roadmap
 
 ### Versão 1.0.0
-- [ ] Estrutura e estilização básica da seção de destaque
+- [x] Estrutura e estilização básica da seção de destaque
 - [ ] Estrutura e estilização básica do rodapé
-- [ ] Estrutura e estilização básica da seção "Sobre nós"
+- [x] Estrutura e estilização básica da seção "Sobre nós"
 - [ ] Estrutura e estilização da seção de serviços
 - [ ] Campo de captura de emails
 
