@@ -31,7 +31,7 @@ Este website será inspirado em um projeto do Vektora Studio, um estúdio criati
 - [x] Estrutura e estilização básica da seção de destaque
 - [ ] Estrutura e estilização básica do rodapé
 - [x] Estrutura e estilização básica da seção "Sobre nós"
-- [ ] Estrutura e estilização da seção de serviços
+- [x] Estrutura e estilização da seção de serviços
 - [ ] Campo de captura de emails
 
 ### Versão 2.0.0

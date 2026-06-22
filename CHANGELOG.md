@@ -9,7 +9,7 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 - README inicial
 - Estrutura HTML inicial do projeto
 
-## [0.1.0] - 2026-06-19
+## [0.2.0] - 2026-06-19
 
 ### Added
 
@@ -17,7 +17,7 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 - Filtro granulado em HTML
 
 
-## [0.1.0] - 2026-06-20
+## [0.3.0] - 2026-06-20
 
 ### Added
 
@@ -29,3 +29,11 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 ### Removed
 
 - Filtro granulado em HTML
+
+## [0.4.0] - 2026-06-21
+
+### Added
+
+- Estrutura HTML melhorada para a lista na seção de serviços
+- Imagens dos serviços oferecidos
+- Estilização da seção de serviços
