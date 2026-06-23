@@ -29,10 +29,10 @@ Este website será inspirado em um projeto do Vektora Studio, um estúdio criati
 
 ### Versão 1.0.0
 - [x] Estrutura e estilização básica da seção de destaque
-- [ ] Estrutura e estilização básica do rodapé
+- [x] Estrutura e estilização básica do rodapé
 - [x] Estrutura e estilização básica da seção "Sobre nós"
 - [x] Estrutura e estilização da seção de serviços
-- [ ] Campo de captura de emails
+- [x] Campo de captura de emails
 
 ### Versão 2.0.0
 - [ ] Estrutura e estilização básica da seção de últimos projetos

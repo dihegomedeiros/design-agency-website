@@ -37,3 +37,11 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 - Estrutura HTML melhorada para a lista na seção de serviços
 - Imagens dos serviços oferecidos
 - Estilização da seção de serviços
+
+## [1.0.0] - 2026-06-22
+
+### Added
+
+- DIVs para estilização e molhora no HTML do rodapé
+- Ícones SVG para links no HTML do rodapé
+- Estilização do rodapé e área de envio de emails
