@@ -45,3 +45,11 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 - DIVs para estilização e molhora no HTML do rodapé
 - Ícones SVG para links no HTML do rodapé
 - Estilização do rodapé e área de envio de emails
+
+## [1.1.0] - 2026-06-23
+
+### Added
+
+- Estrutura HTML da seção 'Últimos Projetos'
+- Imagens JPG 
+- Estilização da seção adicionada
