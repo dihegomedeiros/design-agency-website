@@ -26,7 +26,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+overflow-y: scroll;}
 
 .container {
     width: 100%;
@@ -344,8 +344,8 @@ body {
 
         h2 {
             grid-column: span 2;
-        font-size: 3em;
-        margin-bottom: 40px;
+            font-size: 3em;
+            margin-bottom: 40px;
         }
 
         .card {
@@ -357,7 +357,8 @@ body {
             position: relative;
             cursor: pointer;
 
-            svg, span {
+            svg,
+            span {
                 opacity: 0;
             }
 
@@ -391,6 +392,7 @@ body {
             &&:hover svg {
                 transform: translate(-50%, -105%);
                 z-index: 1;
+
                 path {
                     fill: #fff;
                 }
@@ -403,6 +405,110 @@ body {
             }
         }
     }
+}
+
+#testimonials {
+    padding-block: 40px;
+
+    .container {
+        position: relative;
+
+        h2 {
+            grid-column: span 2;
+            font-size: 3em;
+            margin-bottom: 40px;
+        }
+
+        img {
+            width: 450px;
+        }
+
+        .carousel-container {
+            height: 60vh;
+            width: 100%;
+            position: relative;
+
+            .buttons {
+                display: flex;
+                gap: .44em;
+                position: absolute;
+                z-index: 1;
+                top: -92px;
+                right: 0;
+
+                svg {
+                    width: 44px;
+                    height: 44px;
+                    border: 1px solid #120E18;
+                    border-radius: 50%;
+                    stroke: #120E18;
+                    
+                    &:hover {
+                        background-color: rgb(159, 95, 243);
+                        border-color: rgb(159, 95, 243);
+                        stroke: #fff;
+                    }
+                }
+
+                
+            }
+        }
+
+        .carousel {
+            position: absolute;
+            display: flex;
+            overflow-x: auto;
+            width: 98.9vw;
+            cursor: ew-resize;
+            top: 0;
+            padding-inline: 5.5vw;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .carousel::-webkit-scrollbar {
+            display: none;
+        }
+
+        .group {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+        }
+
+        .card {
+            flex: 0 0 5em;
+            height: auto;
+            border-radius: .2em;
+
+            h3,
+            h4,
+            p {
+                margin: 0;
+                display: inline-block;
+            }
+
+            h3,
+            h4 {
+                margin-block: .5em 1em;
+                font-size: 1.3em;
+                height: 18px;
+            }
+
+            h4 {
+                float: right;
+                color: #444;
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: .9em;
+                color: #120E18;
+                text-align: justify;
+            }
+        }
+    }
+
 }
 
 footer {
@@ -443,7 +549,8 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-    p, a {
+    p,
+    a {
         font-size: .9em;
         line-height: 150%;
         color: #ccc;
