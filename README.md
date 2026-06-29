@@ -36,7 +36,7 @@ Este website será inspirado em um projeto do Vektora Studio, um estúdio criati
 
 ### Versão 2.0.0
 - [x] Estrutura e estilização básica da seção de últimos projetos
-- [ ] Estrutura e estilização básica da seção de testemunhos de clientes
+- [x] Estrutura e estilização básica da seção de testemunhos de clientes
 - [ ] Menu de navegação mobile e responsividade
 - [ ] Efeitos básicos de interação em componentes
 

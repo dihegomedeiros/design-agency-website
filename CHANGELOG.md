@@ -53,3 +53,10 @@ Quaisquer mudanças no projeto serão documentadas aqui.
 - Estrutura HTML da seção 'Últimos Projetos'
 - Imagens JPG 
 - Estilização da seção adicionada
+
+## [1.2.0] - 2026-06-28
+
+### Added
+
+- Estrutura e estilização básica da seção de testemunhos de clientes
+- Imagens PNG
